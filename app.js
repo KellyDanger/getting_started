@@ -1,1 +1,24 @@
-console.log("Hello World");
+// console.log("Hello World");
+// let testVar = 9;
+// console.log(testVar);
+// testVar = 11;
+// console.log(testVar);
+// console.log(testVar);
+// let kids = 2;
+// let cats = 4;
+// let charges = kids + cats;
+// console.log('I take care of', charges, 'charges.');
+// kids++;
+// console.log(charges);
+// charges = kids + cats;
+// console.log(charges);
+
+let bagel = [ 'bacon', 'lettuce', 'tomato'];
+bagel[0] = 'maple bacon';
+bagel.push('mustard');
+bagel.pop();
+bagel.push('mayo');
+bagel.push('asiago');
+bagel.unshift('asiago');
+bagel.shift();
+bagel.unshift('sesame');
